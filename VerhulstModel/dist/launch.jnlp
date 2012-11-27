@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="http://www.wikiskripta.eu/extensions/javawebstart/verhulstmodel" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>VerhulstModel</title>
+        <vendor>pavel</vendor>
+        <homepage href=""/>
+        <description>VerhulstModel</description>
+        <description kind="short">VerhulstModel</description>
+    </information>
+<update check="background"/>
+<security>
+<all-permissions/>
+</security>
+    <resources>
+<j2se version="1.5+"/>
+<jar href="VerhulstModel.jar" main="true"/>
+    <jar href="lib/jfreechart-1.0.14.jar"/>
+<jar href="lib/jcommon-1.0.17.jar"/>
+</resources>
+    <application-desc main-class="verhulstmodel.Main">
+    </application-desc>
+</jnlp>
