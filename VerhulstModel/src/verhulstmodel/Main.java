@@ -131,7 +131,7 @@ public class Main extends JFrame implements ActionListener, PropertyChangeListen
 
         JPanel topPanel = new JPanel(new GridLayout(1,2));
         topPanel.setBorder(BorderFactory.createTitledBorder("Data"));
-        table = new JTable(365 * 5, 11); //TODO dynamically add row
+        table = new JTable(365 * 10, 11); //TODO dynamically add row
         JScrollPane scrollPane = new JScrollPane(table);
         JTable rowTable = new RowNumberTable(table);
         scrollPane.setRowHeaderView(rowTable);
